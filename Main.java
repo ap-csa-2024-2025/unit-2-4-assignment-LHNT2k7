@@ -10,6 +10,7 @@ public class Main
       String FirstN = word2.substring(0,n);
       int indexOfNthtoLast = word.length() - n;
       String LastN = word.substring(indexOfNthtoLast);
-      return FirstN + LastN;
+      output = FirstN + LastN;
+      return output;
   }
 }
